@@ -15,6 +15,9 @@ class ApplicationController < ActionController::Base
   end
   helper_method :enhanced_cart
 
+  # def load_cart
+  #   @order = cart_subtotal_cents
+  # end 
   def cart_subtotal_cents
     enhanced_cart.map {|entry| entry[:product].price_cents * entry[:quantity]}.sum
   end
