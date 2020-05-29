@@ -3,7 +3,6 @@ class Admin::CategoriesController < ApplicationController
 
   def index
     @category = Category.all
-    @products = Product.all
   end
 
 
