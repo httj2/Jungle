@@ -7,7 +7,12 @@
       <%= link_to '+ New Category', [:new, :admin, :category], class: 'btn btn-info' %>
     </div>
     <table class="table table-bordered">
-      <%= render 'category' %>
+      <thead>
+        <tr>
+          <th colspan="2">Category List</th>
+       </tr>
+      </thead>
+      <%= render @category %>
     </table>
   </div>
 </section>
