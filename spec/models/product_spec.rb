@@ -12,9 +12,7 @@ RSpec.describe Product, type: :model do
         category_id: @category.id
       )
     end 
-    after :each do
 
-    end 
 
     it 'should save successfully ' do 
       @product = Product.new( 
