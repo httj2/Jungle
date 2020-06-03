@@ -2,7 +2,7 @@ require 'rails_helper'
 require 'support/images'
 require 'support/database_cleaner'
 
-RSpec.feature "Visitor navigates to product page", type: :feature, js: true  do
+RSpec.feature "AddToCarts", type: :feature, js:true do
   before :each do
     @category = Category.create! name: 'Apparel'
 
@@ -15,17 +15,14 @@ RSpec.feature "Visitor navigates to product page", type: :feature, js: true  do
         price: 64.99
       )
     end
-  
   end
 
-  scenario "They see product details" do
+  scenario "They see updated cart" do
     visit root_path
-    first(:link, "Details").click
-
-     # DEBUG
-    # save_and_open_screenshot
+    first(:button, "Add").click
+    #  DEBUG
+    save_and_open_screenshot
     
-    expect(page).to have_content('Name')
+    expect(page).to have_content('My Cart (1)')
   end
-
 end
