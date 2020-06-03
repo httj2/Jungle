@@ -25,7 +25,7 @@ RSpec.feature "Visitor navigates to product page", type: :feature, js: true  do
      # DEBUG
     # save_and_open_screenshot
     
-    expect(page).to have_content('Name')
+    expect(page).to have_content('Description')
   end
 
 end
