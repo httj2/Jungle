@@ -25,3 +25,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+## Final Product
+!["Screenshot for homepage"]()
+!["Screenshot for ordered review"](https://github.com/httj2/scheduler/blob/master/docs/Scheduler-editAppointment.png)
+!["Screenshot for cart"](https://github.com/httj2/scheduler/blob/master/docs/Schedular_Full.png)
+!["Screenshot for all products in admin"](https://github.com/httj2/scheduler/blob/master/docs/Schedular_AppointmentsAvaliable.png)
+!["Screenshot for dashboard in admin"](https://github.com/httj2/scheduler/blob/master/docs/Schedular_AppointmentsAvaliable.png)
