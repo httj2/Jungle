@@ -28,7 +28,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 !["Screenshot for homepage"](https://github.com/httj2/Jungle/blob/master/docs/Homepage.png)
-!["Screenshot for ordered review"](https://github.com/httj2/Jungle/blob/master/docs/order-review.png)
 !["Screenshot for cart"](https://github.com/httj2/Jungle/blob/master/docs/Cart.png)
+!["Screenshot for ordered review"](https://github.com/httj2/Jungle/blob/master/docs/order-review.png)
 !["Screenshot for all products in admin"](https://github.com/httj2/Jungle/blob/master/docs/Admin-All-Products.png)
 !["Screenshot for dashboard in admin"](https://github.com/httj2/Jungle/blob/master/docs/Admin-dashboard.png)
